@@ -107,6 +107,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
+    padding-top: 40px;
 }
 
 .icon {
@@ -133,6 +134,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
+    padding-top: 40px;
 }
 
 /*--skill--*/
@@ -140,6 +142,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
+    padding-top: 40px;
 }
 
 /*--contact--*/
@@ -147,4 +150,5 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
+    padding-top: 40px;
 }
