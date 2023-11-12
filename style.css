@@ -39,7 +39,7 @@ a:visited {
     padding: 10px 40px;
 }
 
-.header-logo {
+.header-icon {
     font-size: 20px;
     font-weight: bold;
     line-height: 1.2;
@@ -47,7 +47,7 @@ a:visited {
     letter-spacing: .05em;
 }
 
-.header-logo a {
+.header-icon a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -104,9 +104,11 @@ a:visited {
 
 /*--About--*/
 #about {
+    border-bottom: 4px solid black;
+    width: 250px;
     text-align: center; 
     font-size: 36px;
-    margin: 50px 0; 
+    margin: 50px auto; 
     padding-top: 80px;
 }
 
@@ -131,24 +133,50 @@ a:visited {
 
 /*--works--*/
 #works {
+    border-bottom: 4px solid black;
+    width: 250px;
     text-align: center; 
     font-size: 36px;
-    margin: 50px 0; 
+    margin: 50px auto; 
     padding-top: 80px;
+}
+
+.wo {
+    text-align: center;
+    margin: 6px 0;
+}
+
+.wo-title {
+    text-align: center;
+    font-size: 24px;
 }
 
 /*--skill--*/
 #skill {
+    border-bottom: 4px solid black;
+    width: 250px;
     text-align: center; 
     font-size: 36px;
-    margin: 50px 0; 
+    margin: 50px auto; 
     padding-top: 80px;
+}
+
+.sk {
+    text-align: center;
+    margin: 6px 0;
 }
 
 /*--contact--*/
 #contact {
+    border-bottom: 4px solid black;
+    width: 250px;
     text-align: center; 
     font-size: 36px;
-    margin: 50px 0; 
+    margin: 50px auto; 
     padding-top: 80px;
+}
+
+.co {
+    text-align: center;
+    margin: 6px 0;
 }
