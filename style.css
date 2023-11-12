@@ -1,0 +1,91 @@
+body {
+    font-family: "Montserrat";
+    font-size: 15px;
+    letter-spacing: .05em;
+    color: #ffffff;
+    background-color: #393939;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/*--ヘッダー--*/
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0 5px 10px -6px rgba(112, 112, 112, 0.1);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: 20px;
+    letter-spacing: .05em;
+}
+
+.header-logo a {
+    color: #ffffff;
+}
+
+.ToC {
+    display: flex;
+    list-style: none;
+}
+
+.ToC a {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    transition: .3s;
+    letter-spacing: .05em;
+    color: #ffffff;
+}
+
+/*--表紙--*/
+.mv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+}
+
+.mv-container {
+    padding: 0 40px;
+}
+
+.mv-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    letter-spacing: .1em;
+    backdrop-filter: blur(10px);
+}
+.mv-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: .08em;
+    backdrop-filter: blur(10px);
+}
