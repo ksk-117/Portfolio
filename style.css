@@ -90,7 +90,7 @@ a:visited {
     line-height: 1.2;
     margin-bottom: 5px;
     letter-spacing: .1em;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 .mv-subtitle {
     font-size: 20px;
@@ -98,7 +98,7 @@ a:visited {
     line-height: 1;
     margin-bottom: 40px;
     letter-spacing: .08em;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 
 
@@ -107,7 +107,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .icon {
@@ -134,7 +134,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 /*--skill--*/
@@ -142,7 +142,7 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 /*--contact--*/
@@ -150,5 +150,5 @@ a:visited {
     text-align: center; 
     font-size: 36px;
     margin: 50px 0; 
-    padding-top: 40px;
+    padding-top: 80px;
 }
