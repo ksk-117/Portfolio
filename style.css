@@ -1,13 +1,23 @@
 body {
-    font-family: "Montserrat";
+    font-family: "Arial" "Montserrat";
     font-size: 15px;
     letter-spacing: .05em;
     color: #ffffff;
     background-color: #393939;
     margin: 0;
 }
+
 a {
-    text-decoration: none;
+    color: white; 
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #d8aaff; 
+}
+
+a:visited {
+    color: #d8aaff; 
 }
 
 
@@ -19,14 +29,14 @@ a {
     z-index: 1;
     width: 100%;
     background-color: #000000;
-    box-shadow: 0 5px 10px -6px rgba(112, 112, 112, 0.1);
+    box-shadow: 0 5px 10px -6px rgba(255, 255, 255, 0.599);
 }
 
 .header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 
 .header-logo {
@@ -38,6 +48,7 @@ a {
 }
 
 .header-logo a {
+    text-decoration: none;
     color: #ffffff;
 }
 
@@ -62,7 +73,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: 100vh;
     text-align: center;
 
     background-image: url('background.jpg'); 
@@ -91,23 +102,49 @@ a {
 }
 
 
-/*--見出し--toc--*/
-.toc {
-    font-size: 34px;
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 40px;
-    text-align: center;
-    letter-spacing: .05em;
-    color: #ffffff;
+/*--About--*/
+#about {
+    text-align: center; 
+    font-size: 36px;
+    margin: 50px 0; 
 }
 
-/*--About--*/
 .icon {
-    width: 100px; 
-    height: 100px; 
+    width: 300px; 
+    height: 300px; 
     border-radius: 50%; 
     object-fit: cover; 
     display: block;
-    margin: 0 auto; 
+    margin: 50px auto 0;
+}
+
+.ab-name {
+    text-align: center;
+    font-size: 24px;
+}
+
+.ab {
+    text-align: center;
+    margin: 6px 0;
+}
+
+/*--works--*/
+#works {
+    text-align: center; 
+    font-size: 36px;
+    margin: 50px 0; 
+}
+
+/*--skill--*/
+#skill {
+    text-align: center; 
+    font-size: 36px;
+    margin: 50px 0; 
+}
+
+/*--contact--*/
+#contact {
+    text-align: center; 
+    font-size: 36px;
+    margin: 50px 0; 
 }
