@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: rgb(175, 175, 255); 
+    color: rgb(100, 200, 255); 
     transition: color 0.3s; 
 }
 
@@ -156,11 +156,15 @@ a:visited {
 }
 
 .wo-link a {
-    color: rgb(175, 175, 255); 
+    color: rgb(100, 200, 255); 
 }
 
 .wo-link a:hover {
     color: rgb(170, 50, 255); 
+}
+
+.wo-link a:visited {
+    color: rgb(175, 175, 255); 
 }
 
 
@@ -206,12 +210,17 @@ a:visited {
 }
 
 .co a {
-    color: rgb(175, 175, 255); 
+    color: rgb(100, 200, 255); 
 }
 
 .co a:hover {
     color: rgb(170, 50, 255); 
 }
+
+.co a:visited {
+    color: rgb(175, 175, 255); 
+}
+
 footer {
     background-color: black;
     padding: 40px;
