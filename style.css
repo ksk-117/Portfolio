@@ -76,7 +76,8 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;                 /*--表紙として全画面表示--*/
+    margin-top: 70px;
+    height: calc(100vh - 70px);    /*--表紙として全画面表示--*/
     text-align: center;
 
     background-image: url('background.jpg'); 
@@ -270,7 +271,7 @@ footer {
     }
 
     .suika {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         display: block;
         margin: 0 auto; 
@@ -279,7 +280,8 @@ footer {
     }
 
     .cover {
-        height: 75vh;
+        height: calc(75vh - 80px);
+        margin-top: 80px;
     }
     
     .cover-container {
@@ -291,6 +293,5 @@ footer {
     }
     .cover-subtitle {
         font-size: 16px;
-        margin-bottom: 20px;
     }
 }
