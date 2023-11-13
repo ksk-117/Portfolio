@@ -43,6 +43,9 @@ a:visited {
     font-weight: bold;
     line-height: 1.2;
     letter-spacing: .05em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-icon a {
