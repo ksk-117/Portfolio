@@ -273,4 +273,13 @@ footer {
         padding: 8px 12px;
     }
 
+    .wo-text {
+        font-size: 12px;
+    }
+    .ab {
+        font-size: 12px;
+        text-align: center;
+        margin: 6px 0;
+    }
+
 }
