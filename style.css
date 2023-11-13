@@ -264,12 +264,12 @@ footer {
         width: 400px;
         padding-bottom: 10px;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
     
     .index {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 0;
+        margin: 0;
+        padding: 0;
     }
     
     .index a {
@@ -284,8 +284,8 @@ footer {
     }
 
     .cover {
-        height: calc(85vh - 160px);
-        margin-top: 80px;
+        height: 800px;
+        margin-top: 150px;
     }
     
     .cover-container {
