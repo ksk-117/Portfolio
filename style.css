@@ -79,6 +79,7 @@ a:visited {
     margin-top: 70px;
     height: calc(100vh - 70px);    /*--表紙として全画面表示--*/
     text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
 
     background-image: url('background.jpg'); 
     background-size: cover; 
