@@ -258,13 +258,18 @@ footer {
     
     .header-icon {
         border-bottom: 2px solid white;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         width: 400px;
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
     
-    .index:not(:last-child) {
-        margin-right: 10px;
+    .index {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
     }
     
     .index a {
@@ -276,12 +281,10 @@ footer {
         height: auto;
         display: block;
         margin: 0 auto; 
-        margin-left: 10px; 
-        margin-right: 10px;
     }
 
     .cover {
-        height: calc(75vh - 80px);
+        height: calc(85vh - 160px);
         margin-top: 80px;
     }
     
