@@ -168,6 +168,13 @@ a:visited {
     color: rgb(175, 175, 255); 
 }
 
+.suika {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .play a {
     text-align: center;
     font-size: 24px;
