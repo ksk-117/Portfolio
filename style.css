@@ -250,9 +250,16 @@ footer {
         padding: 15px;
     }
     
-    .header-logo {
+    .header-icon {
         font-size: 15px;
         margin-right: 15px;
+    }
+
+    .index {
+        display: flex;
+        list-style: none;
+        font-size: 12px;
+
     }
     
       /* 表紙 */
