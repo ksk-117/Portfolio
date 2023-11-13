@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: white; 
+    color: rgb(160, 160, 255); 
     transition: color 0.3s; 
 }
 
@@ -73,11 +73,12 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vh;                 /*--表紙として全画面表示--*/
     text-align: center;
 
     background-image: url('background.jpg'); 
     background-size: cover; 
+    background-position: center;   /*--スマホ時画像中央揃え--*/
 }
 
 .cover-container {
@@ -98,7 +99,6 @@ a:visited {
     line-height: 1;
     margin-bottom: 40px;
     letter-spacing: .08em;
-    backdrop-filter: blur(20px);
 }
 
 
@@ -149,6 +149,12 @@ a:visited {
 .wo-title {
     text-align: center;
     font-size: 24px;
+}
+
+.play a {
+    text-align: center;
+    font-size: 24px;
+    color: #fc8787;
 }
 
 /*--skill--*/
