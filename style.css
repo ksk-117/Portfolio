@@ -261,10 +261,7 @@ footer {
         text-align: center;
         align-items: center;
         justify-content: center;
-        width: 400px;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        width: 767px;
     }
     
     .index {
@@ -275,16 +272,8 @@ footer {
     .index a {
         width: 100%; 
         box-sizing: border-box;
-        margin: 0 10px;
     }
-
-    .suika {
-        max-width: 80%;
-        height: auto;
-        display: block;
-        margin: 0 auto; 
-    }
-
+    
     .cover {
         height: 500px;
         margin-top: 120px;
@@ -297,7 +286,21 @@ footer {
     .cover-title {
         font-size: 30px;
     }
+    
     .cover-subtitle {
         font-size: 16px;
     }
+
+    .wo {
+        text-align: center;
+        margin: 6px 0;
+        font-size: 10px;
+    }
+    .suika {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
+
 }
