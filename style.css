@@ -265,6 +265,7 @@ footer {
         display: inline-block; 
         display: flex;
         margin-bottom: 13px; 
+        font-size: 27px;
     }
     
     .index {
