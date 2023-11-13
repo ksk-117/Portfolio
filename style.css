@@ -268,12 +268,14 @@ footer {
     }
     
     .index {
-        margin: 0;
-        padding: 0;
+        flex-direction: column; 
+        align-items: center;
     }
     
     .index a {
-        font-size: 10px;
+        width: 100%; 
+        box-sizing: border-box;
+        margin-bottom: 10px;
     }
 
     .suika {
