@@ -282,6 +282,19 @@ footer {
         padding: 0 20px;
     }
     
+    .cover-title {
+        font-size: 30px;
+    }
+    
+    .cover-subtitle {
+        font-size: 16px;
+    }
+
+    .wo {
+        text-align: center;
+        margin: 6px 0;
+    }
+    
     .suika {
         max-width: 80%;
         height: auto;
