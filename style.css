@@ -256,6 +256,7 @@ footer {
     
     .header-icon {
         border-bottom: 2px solid white;
+        width: 400px;
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
@@ -277,4 +278,19 @@ footer {
         margin-right: 10px;
     }
 
+    .cover {
+        height: 75vh;
+    }
+    
+    .cover-container {
+        padding: 0 20px;
+    }
+    
+    .cover-title {
+        font-size: 30px;
+    }
+    .cover-subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
 }
