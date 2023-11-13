@@ -240,3 +240,22 @@ footer {
 
 /*--media design--*/
 
+@media screen and (max-width: 768px) {
+    .cover-title {
+        font-size: 40px;
+    }
+
+    .cover-subtitle {
+        font-size: 16px;
+    }
+
+    .header-icon {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .index a {
+        padding: 8px 12px;
+    }
+
+}
