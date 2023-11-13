@@ -277,18 +277,16 @@ footer {
         font-size: 14px;
         margin-right: 10px;
     }
-
+    
+    .index {
+        font-size: 12px;
+    }
     .index a {
         padding: 8px 12px;
     }
 
     .wo-text {
         font-size: 12px;
-    }
-    .ab {
-        font-size: 18px;
-        text-align: center;
-        margin: 6px 0;
     }
 
 }
