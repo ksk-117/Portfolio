@@ -247,7 +247,9 @@ footer {
     
       /* ヘッダー */
     .header .container {
-        padding: 15px;
+        display: flex;
+        align-items: center;
+        padding: 5px 25px;
     }
     
     .header-icon {
@@ -284,7 +286,7 @@ footer {
         font-size: 12px;
     }
     .ab {
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         margin: 6px 0;
     }
