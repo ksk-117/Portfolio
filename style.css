@@ -42,7 +42,6 @@ a:visited {
     font-size: 20px;
     font-weight: bold;
     line-height: 1.2;
-    margin-right: 20px;
     letter-spacing: .05em;
 }
 
@@ -244,10 +243,21 @@ footer {
     .header .container {
         flex-direction: column;
         align-items: center;
+        padding: 15px;
     }
     
-    .index {
-        margin-top: 10px; /* 適切なマージンを追加 */
+    .header-icon {
+        border-bottom: 3px solid white; /* 白い線を下部に追加 */
+        padding-bottom: 10px; /* 適切なパディングを追加 */
+        margin-bottom: 10px; /* 適切なマージンを追加 */
+    }
+    
+    .index:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    .index a {
+        font-size: 10px;
     }
 
     .suika {
