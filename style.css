@@ -253,14 +253,14 @@ footer {
     }
     
     .header-icon {
-        font-size: 15px;
+        font-size: 10px;
         margin-right: 15px;
     }
 
     .index {
         display: flex;
         list-style: none;
-        font-size: 12px;
+        font-size: 7px;
 
     }
     
