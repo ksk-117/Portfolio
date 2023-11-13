@@ -224,6 +224,7 @@ a:visited {
     text-align: center;
     margin: 6px 0;
     padding-bottom: 40px;
+    
 }
 
 .co a {
@@ -264,7 +265,7 @@ footer {
         width: 767px;
         display: inline-block; 
         display: flex;
-        margin-bottom: 13px; 
+        margin: 6px 0;
         font-size: 27px;
     }
     
