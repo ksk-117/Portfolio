@@ -157,6 +157,10 @@ a:visited {
     color: #fc8787;
 }
 
+.play a:hover {
+    color: #fd3030; 
+}
+
 /*--skill--*/
 #skill {
     border-bottom: 4px solid black;
