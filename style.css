@@ -182,6 +182,12 @@ a:visited {
     display: block;
     margin: 0 auto;
 }
+.prime {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 .play a {
     text-align: center;
