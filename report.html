@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Report</title>
+    <link rel="stylesheet" href="style_report.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!--スムーズなスクロール-->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(anchor.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+
+
+  <body>  
+  
+    <!-- ヘッダー -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-icon"><a href=".">My Portfolio</a></h1>
+        <nav class="index">
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#works">WORKS</a>
+            <a href="index.html#report">REPORT</a>
+            <a href="index.html#skill">SKILL</a>
+            <a href="index.html#contact">CONTACT</a>
+        </nav>
+      </div>
+    </header> 
+
+    <!-- 本文 -->
+    <h2 id="js">　JavaScriptを用いた機械学習 (2024.8/8)</h2>
+    <h3>小見出し</h3>
+    <p>本文</p>
+    <ul>
+      <li>リスト1</li>
+      <li>リスト2</li>
+    </ul>
+    <ol>
+      <li>リスト1</li>
+      <li>リスト2</li>
+    </ol>
+  </body>
+</html>
+
+

@@ -1,0 +1,158 @@
+body {
+    font-family: "Arial", "Montserrat", "sans-serif";
+    font-size: 15px;
+    letter-spacing: .05em;
+    color: #ffffff;
+    background-color: #393939;
+    margin: 0;
+}
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 1.7em;
+    position: relative;
+    margin-left: 10%;
+    padding: 10px 0;
+    border-top: 2px solid #ffffff; /* 上部の白い線 */
+    border-bottom: 2px solid #ffffff; /* 下部の白い線 */
+    background: linear-gradient(to right, #393939, #ffffff);
+}
+
+h3 {
+    font-size: 1.5em;
+    position: relative;
+    margin-left: 13%;
+}
+
+p, ul, ol  { position: relative;
+    margin-left: 13%;
+}
+
+a {
+    color: rgb(100, 200, 255); 
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #8b07ff; 
+}
+
+a:visited {
+    color: rgb(175, 175, 255); 
+}
+
+
+/*--ヘッダー--*/
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0 5px 10px -6px rgb(255, 255, 200);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.header-icon {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: .05em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.index {
+    display: flex;
+    list-style: none;
+}
+
+.index a {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 15px;
+    transition: .3s;
+    letter-spacing: .05em;
+    color: #ffffff;
+}
+
+.index a:hover {
+    color: rgb(255, 255, 150); 
+}
+
+/*--サイト内リンク--*/
+#js {
+    margin-top: 160px;
+}
+
+/*--footer--*/
+footer {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+/*--media design--*/
+
+@media screen and (max-width: 767px) {
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .header-icon {
+        border-bottom: 2px solid white;
+        width: 767px;
+        display: inline-block; 
+        display: flex;
+        margin: 6px 0;
+        font-size: 18px;
+    }
+    
+    .index {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+    
+    .index a {
+        width: 100%; 
+        box-sizing: border-box;
+    }
+    
+    .cover {
+        height: 500px;
+        margin-top: 80px;
+    }
+    
+    .cover-container {
+        padding: 0 20px;
+    }
+    
+    .cover-title {
+        font-size: 30px;
+    }
+    
+    .cover-subtitle {
+        font-size: 16px;
+    }
+
+    h2 {left: 20px;}
+    h3 {left: 26px;}
+    p  {left: 26px;}
+
+}
