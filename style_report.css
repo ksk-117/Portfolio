@@ -22,25 +22,41 @@ h3 {
     font-size: 1.5em;
     position: relative;
     margin-left: 13%;
+    border-bottom: 2px solid #ffffff;
 }
 
 p, ul, ol  { position: relative;
     margin-left: 13%;
+    margin-right: 13%;
+}
+
+pre {
+    font-size: 1.2em;
+    margin-right: 13%;
+    margin-left: 13%;
+    background-color: #0c022b;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+img {
+    margin-left: 13%;
+}
+
+.right {
+    margin-left: 20%;
 }
 
 a {
-    color: rgb(100, 200, 255); 
+    color: #ffffff; 
     transition: color 0.3s; 
+    text-decoration: none;
 }
 
 a:hover {
-    color: #8b07ff; 
+    color: #bbbbbb; 
 }
-
-a:visited {
-    color: rgb(175, 175, 255); 
-}
-
 
 /*--ヘッダー--*/
 .header {
@@ -97,6 +113,20 @@ a:visited {
 /*--サイト内リンク--*/
 #js {
     margin-top: 120px;
+}
+
+#js01, #js02, #js03, #js04, #js05 {
+    padding-top: 100px;
+}
+
+.big {
+    font-size: 1.2em;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    margin-left: 20%;
 }
 
 /*--footer--*/
@@ -165,11 +195,31 @@ footer {
         background: #393939;
     }
 
-    
-    
     h3, p, ul, ol  { position: relative;
         margin-left: 4%;
+        margin-right: 4%;
     }
     
+    pre {
+        font-size: 0.5em;
+    }
 
+}
+
+@media (max-width: 1200px) {
+    pre {
+        font-size: 14px; /* 画面幅が1200px以下の場合の文字サイズ */
+    }
+}
+
+@media (max-width: 800px) {
+    pre {
+        font-size: 12px; /* 画面幅が800px以下の場合の文字サイズ */
+    }
+}
+
+@media (max-width: 600px) {
+    pre {
+        font-size: 10px; /* 画面幅が600px以下の場合の文字サイズ */
+    }
 }
