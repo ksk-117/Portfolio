@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Training App Report</title>
+    <link rel="stylesheet" href="style_report.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <!-- スムーズなスクロール -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(anchor.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="container">
+        <h1 class="header-icon"><a href=".">My Portfolio</a></h1>
+        <nav class="index">
+          <a href="index.html#about">ABOUT</a>
+          <a href="index.html#works">WORKS</a>
+          <a href="index.html#report">REPORT</a>
+          <a href="index.html#skill">SKILL</a>
+          <a href="index.html#contact">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+      <!-- アプリ概要 -->
+      <section id="overview"><br><br><br><br><br>
+        <h2>Training App</h2>
+        <p>
+          「Training App」は、ユーザーが自身のトレーニング記録を管理し、過去の自分との練習量を比較することで計画的な成長をサポートするウェブアプリケーションである。<br />
+          ユーザーは日々の練習記録を登録・編集でき、統計情報を確認できる。また、全ユーザーの統計からランキング機能を搭載し、切磋琢磨しながらトレーニングを楽しむことができる。
+        </p>
+        <div class="">
+          <img src="image/image.png" alt="ランキング機能イメージ" width="600" />
+        </div>
+      </section>
+
+      <!-- 開発動機 -->
+      <section id="development-motivation">
+        <h3>開発動機</h3>
+        <p>
+          中学校の陸上部時代、顧問の先生の指導で練習記録ノートをつけていた際、紙の記録では管理や振り返りが難しいという課題を実感した。<br/>
+          よってデジタルで簡単に記録管理し、統計情報を視覚的に確認できるアプリを作ることで、自分の成長とモチベーションの維持を支援したいという思いから本アプリを開発した。
+        </p>
+      </section>
+
+      <!-- 使い方 -->
+      <section id="usage">
+        <h3>使い方</h3>
+        <ol>
+          <li>
+            <strong>Sign up</strong> と <strong>Log in</strong> を行うと、すぐに利用を開始できます。
+          </li>
+          <li>
+            ヘッダーに表示される各機能の説明<br>
+            ・<strong>練習カレンダー</strong>：ホーム画面<br>
+            ・<strong>記録を追加</strong>：練習記録の新規作成ページ<br>
+            ・<strong>メニュー管理</strong>：好きな練習メニューを作成できるページ
+          </li>
+          <li>
+            ログイン後、ホーム画面が表示され、練習記録した日がカレンダー上で赤色で表示されます。<br />
+            設定した練習負荷によりカレンダーの色が変化し、赤い円をクリックすることでデータの編集が可能です。
+            <div class="screenshot">
+              <img src="image/image3.png" alt="ホーム画面" width="600" />
+            </div>
+          </li>
+          <li>
+            個人の統計情報のほか、全ユーザーの統計からランキング機能も利用可能です。
+            <div class="screenshot">
+              <img src="image/image4.png" alt="統計情報" width="600" />
+            </div>
+          </li>
+          <li>
+            <strong>メニュー管理</strong>では、練習メニューの作成と表示ができます。<br />
+            <div class="screenshot">
+              <img src="image/image6.png" alt="追加されたメニュー表示" width="600" />
+            </div>
+            <div class="screenshot" style="text-align: left;">
+              <img src="image/image5.png" alt="メニュー作成画面" width="600" />
+            </div>
+          </li>
+          <li>
+            <strong>記録を追加</strong>の画面では、複数の練習メニュー選択や練習負荷の設定が可能です。<br />
+            <div class="screenshot">
+              <img src="image/image7.png" alt="記録追加画面" width="600" />
+            </div>
+          </li>
+          <li>
+            <strong>記録編集</strong>は、練習カレンダーの赤い丸をクリックすることで、その日のデータ編集が可能です。<br />
+            <div class="screenshot">
+              <img src="image/image8.png" alt="記録編集画面" width="600" />
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 苦労した点・こだわった点 -->
+      <section id="challenges">
+        <h3>苦労した点・こだわった点</h3>
+        <ul>
+          <li>
+            全ユーザーの統計取得時に、APIではなくRPC関数を用いることでデータベースとのやり取りを効率化し、パフォーマンスを向上させた点。
+          </li>
+          <li>
+            練習記録に対し複数の練習メニューを設定するため、「マスター・ディテール（親子）関係」を活用し、理想的な実装を実現した点。
+          </li>
+        </ul>
+      </section>
+
+      <!-- 今後実装していきたい点 -->
+      <section id="future-plans">
+        <h3>今後実装していきたい点</h3>
+        <ul>
+          <li>ユーザーIDではなく、ニックネーム表示によるセキュリティ強化</li>
+          <li>スポーツ別など、詳細なカテゴリでの統計機能の拡充</li>
+          <li>グループ機能の搭載による、部内での記録比較やアドバイス機能の実装</li>
+        </ul>
+      </section>
+
+      <!-- 使用技術 -->
+      <section id="technologies">
+        <h3>使用技術</h3>
+        <ul>
+          <li>Next.js および React</li>
+          <li>Supabase</li>
+          <li>Tailwind CSS</li>
+          <li>React Icons</li>
+        </ul>
+      </section>
+
+      <!-- 開発履歴 -->
+      <section id="development-history">
+        <h3>開発履歴</h3>
+          <p>2024年1月23日：プロジェクト開始</p>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 2024 ksk</p>
+    </footer>
+  </body>
+</html>
