@@ -228,15 +228,15 @@ a:visited {
     padding-top: 80px;
 }
 
-.tf {
-    margin-right: 10px;
-}
 
 .re {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 100%;
 }
+
 
 /*--skill--*/
 #skill {
